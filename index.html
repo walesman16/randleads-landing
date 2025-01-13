@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RandLeadsAI - AI Marketing Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/RandleadsAI.png" alt="RandLeadsAI Logo">
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#" onclick="openBookingModal()">Contact Us</a>
+            </div>
+            <div class="nav-buttons">
+                <a href="https://app.randleads.com/login" target="_blank" class="login-btn">Login</a>
+                <a href="#" onclick="openBookingModal()" class="demo-btn">Get Demo</a>
+            </div>
+            <button class="mobile-menu" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>AI-Powered Lead Generation for Modern Businesses</h1>
+                    <p>Transform your lead generation with AI automation. Get higher quality leads at a fraction of the cost.</p>
+                    <div class="hero-buttons">
+                        <button class="primary-btn" onclick="openBookingModal()">
+                            <i class="fas fa-calendar-check"></i> Schedule Your Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="H:\Website Projects\Testing\images\hero-image.png" alt="RandLeadsAI Dashboard Interface" class="dashboard-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <p><span class="highlight">500+</span> Businesses Have Used RandLeadsAI To Spend Over <span class="highlight">$5,000,000</span></p>
+        </section>
+
+        <section class="partners">
+            <h2>Powering Industry <span class="highlight">Leaders</span></h2>
+            <div class="partner-logos">
+                <div class="partner-logo">
+                    <img src="images\partner1.png" alt="Partner 1" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2>AI-Powered Features</h2>
+                <div class="features-horizontal">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Smart Lead Scoring</h3>
+                        <p>AI-powered algorithms score and qualify leads based on multiple data points.</p>
+                        <button class="feature-btn" onclick="openBookingModal()">Learn More</button>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Predictive Analytics</h3>
+                        <p>Forecast lead behavior and conversion probability with machine learning.</p>
+                        <button class="feature-btn" onclick="openBookingModal()">Learn More</button>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>Automated Outreach</h3>
+                        <p>Personalized communication at scale with AI-driven engagement.</p>
+                        <button class="feature-btn" onclick="openBookingModal()">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing" id="pricing">
+            <div class="container">
+                <h2>Simple, Transparent Pricing</h2>
+                <div class="pricing-tiers">
+                    <div class="pricing-card starter">
+                        <div class="card-header">
+                            <h3>Starter</h3>
+                            <div class="price">$99<span>/month</span></div>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Basic AI Lead Generation</li>
+                            <li><i class="fas fa-check"></i> Up to 100 Leads/month</li>
+                            <li><i class="fas fa-check"></i> Email Support</li>
+                            <li><i class="fas fa-check"></i> Basic Analytics</li>
+                        </ul>
+                        <a href="https://link.randleads.com/payment-link/6785064c2ad4ad9ce1d469bf" class="primary-btn" target="_blank">
+                            <i class="fas fa-credit-card"></i> Subscribe Now
+                        </a>
+                    </div>
+                    
+                    <div class="pricing-card professional">
+                        <div class="popular-tag">Most Popular</div>
+                        <div class="card-header">
+                            <h3>Professional</h3>
+                            <div class="price">$199<span>/month</span></div>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Advanced AI Lead Generation</li>
+                            <li><i class="fas fa-check"></i> Up to 500 Leads/month</li>
+                            <li><i class="fas fa-check"></i> Priority Support</li>
+                            <li><i class="fas fa-check"></i> Advanced Analytics</li>
+                            <li><i class="fas fa-check"></i> Custom Integration</li>
+                        </ul>
+                        <a href="https://link.randleads.com/payment-link/678505f7fdd53c32e9216521" class="primary-btn" target="_blank">
+                            <i class="fas fa-credit-card"></i> Subscribe Now
+                        </a>
+                    </div>
+                    
+                    <div class="pricing-card enterprise">
+                        <div class="card-header">
+                            <h3>Enterprise</h3>
+                            <div class="price">$499<span>/month</span></div>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Custom AI Solutions</li>
+                            <li><i class="fas fa-check"></i> Unlimited Leads</li>
+                            <li><i class="fas fa-check"></i> 24/7 Premium Support</li>
+                            <li><i class="fas fa-check"></i> Custom Analytics</li>
+                            <li><i class="fas fa-check"></i> API Access</li>
+                            <li><i class="fas fa-check"></i> Dedicated Account Manager</li>
+                        </ul>
+                        <a href="https://link.randleads.com/payment-link/678505352ad4ad1533d469bc" class="primary-btn" target="_blank">
+                            <i class="fas fa-credit-card"></i> Subscribe Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews" id="reviews">
+            <h2>What Our Clients Say</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p>"RandLeadsAI has transformed our lead generation process. We're getting better leads at half the cost."</p>
+                    <div class="reviewer">
+                        <img src="images\reviewer1.png" alt="John Smith">
+                        <div>
+                            <h4>John Smith</h4>
+                            <p>Marketing Director, TechCorp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p>"The AI automation is incredible. It's like having an entire marketing team working 24/7."</p>
+                    <div class="reviewer">
+                        <img src="images\reviewer2.png" alt="Mike Brown">
+                        <div>
+                            <h4>Mike Brown</h4>
+                            <p>CEO, GrowthLabs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p>"We've seen a 300% increase in qualified leads since implementing RandLeadsAI."</p>
+                    <div class="reviewer">
+                        <img src="images\reviewer3.png" alt="Sarah Johnson">
+                        <div>
+                            <h4>Sarah Johnson</h4>
+                            <p>Sales Manager, InnovateX</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="automation">
+            <div class="automation-content">
+                <div class="automation-text">
+                    <h2>Save Money on Lead Acquisition</h2>
+                    <p>Our AI-powered platform automates your lead generation process, reducing costs while increasing quality.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Smart lead scoring and qualification</li>
+                        <li><i class="fas fa-check-circle"></i> Automated outreach campaigns</li>
+                        <li><i class="fas fa-check-circle"></i> Real-time analytics and insights</li>
+                    </ul>
+                    <button class="primary-btn" onclick="openBookingModal()">Book a Demo</button>
+                </div>
+                <div class="automation-image">
+                    <img src="images\automation.jpg" alt="AI Lead Generation Automation" class="feature-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Ready to Transform Your Lead Generation?</h2>
+                <p>Book your demo today and see how RandLeadsAI can revolutionize your business.</p>
+                <button class="primary-btn" onclick="openBookingModal()">
+                    <i class="fas fa-calendar-check"></i> Schedule Your Demo
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <a href="#" class="logo">
+                    <i class="fas fa-robot"></i> RandLeadsAI
+                </a>
+                <p>Join our newsletter to stay up to date on features and releases.</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+            <div class="footer-links-container">
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <a href="#home">Home</a>
+                    <a href="#features">Features</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#about">About Us</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Service</a>
+                    <a href="#cookies">Cookie Policy</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 RandLeadsAI – All Rights Reserved</p>
+            <p>support@randleads.com</p>
+        </div>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeBookingModal()">&times;</span>
+            <h2>Book a Demo Call</h2>
+            <iframe 
+                src="https://link.randleads.com/widget/booking/0TYkMd9IBjaA6WDXNZsw" 
+                style="width: 100%; border:none; overflow: hidden;" 
+                scrolling="no" 
+                id="0TYkMd9IBjaA6WDXNZsw_1736769309238">
+            </iframe>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://link.randleads.com/js/form_embed.js" type="text/javascript"></script>
+    <script>
+        function openBookingModal() {
+            document.getElementById('bookingModal').style.display = 'block';
+            document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+        }
+
+        function closeBookingModal() {
+            document.getElementById('bookingModal').style.display = 'none';
+            document.body.style.overflow = 'auto'; // Restore scrolling
+        }
+
+        // Close modal when clicking outside of it
+        window.onclick = function(event) {
+            const modal = document.getElementById('bookingModal');
+            if (event.target == modal) {
+                closeBookingModal();
+            }
+        }
+
+        // Close modal on escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeBookingModal();
+            }
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
